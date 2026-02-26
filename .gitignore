@@ -1,0 +1,28 @@
+# Credentials — never commit
+.env
+
+# Generated raw data files (reproducible via main.py)
+data/raw/*.json
+data/raw/*.csv
+data/raw/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
